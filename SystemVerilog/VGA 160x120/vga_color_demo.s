@@ -19,9 +19,6 @@ main:
     li s2, VG_ADDR     #load MMIO addresses 
     li s3, VG_COLOR    
 
-    # fill screen using default color
-    #call draw_background  # must not modify s2, s3
-
     li s0, COLUMNS
     li s1, ROWS
 
